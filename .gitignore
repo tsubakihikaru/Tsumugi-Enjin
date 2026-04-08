@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Ren'Py Specifics ---
+# Ignore compiled script files (Ren'Py creates these from your .rpy files)
+*.rpyc
+*.rpymc
+*.rpyb
+
+# Ignore user-specific data and logs
+errors.txt
+traceback.txt
+log.txt
+**/saves/
+**/cache/
+
+# Ignore Android/iOS build artifacts if you ever build for mobile
+android-icon.png
+android-presplash.jpg
+ios-icon.png
+
